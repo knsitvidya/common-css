@@ -1,0 +1,478 @@
+<script type="application/ld+json">
+[
+{
+	"@context": "http://schema.org",
+	"@type": "Hotel",
+	"name" : "Hotel Andaman", 
+	"image": "https://www.cleartrip.com//places/hotels/7140/714045/images/537806_535309723218559_659461091_n_w.jpg",
+	"address":
+	{
+		"@type": "PostalAddress",  
+		"streetAddress": "36,M.A.ROAD ,",
+		"addressLocality": "PHOENIX BAY, ",
+		"addressRegion": "Port Blair",
+		"postalCode": "744102",
+		"addressCountry": "Andaman & Nicobar Islands,India"
+	},
+		"telephone":"03192-242430",    
+		"faxNumber": "+43 512 8000-99",
+		"email": "mailto:andaman_tourism@rediffmail.com",  
+		"memberOf": 
+		{
+      		"@type": "Organization",
+      		"name":"singhotel"
+ 		 },  
+		"hasMap":
+		{
+			"@type": "Map",                               
+			"mapType":
+			{
+				"@id": "http://schema.org/VenueMap",
+				"@type": "MapCategoryType"
+			},
+				"url": "https://www.google.co.in/maps/search/world/@12.954889,77.4908512,11z/data=!3m1!4b1" 
+		}, 
+		"geo":{
+			  "@type": "GeoCoordinates",
+     		 "latitude": "47.2649990",
+     		 "longitude": "11.3428720"
+		},
+			"description" : "A beautifully located business hotel right in the heart of the alps.",
+			"aggregateRating":           
+				{
+					"@type": "AggregateRating",
+					"ratingValue": "3",
+					"reviewCount": "90"
+				},
+				"review": //Review schema for multiple reviews
+				[
+    			{
+      				"@type": "Review",
+      				"name":"Value purchase of rooms",
+					"author":"Johnson",
+    				"itemReviewed":" Double room",
+					"reviewBody":"The actual body of the review.",
+					"accessibilitySummary":"A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as short descriptions are present but long descriptions will be needed for non-visual users or short descriptions are present and no long descriptions are needed.",
+					"comment":"Comments, typically from users.",
+					"commentCount":"50"	,
+					"keywords":"Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas",
+					"datePublished": "2016-04-01",
+					"description": "description of the required info",
+					"reviewRating": 
+					{
+        				"@type": "Rating",
+        				"ratingValue": "4"
+    				}
+				},
+				{
+      				"@type": "Review",
+      				"name":"Value purchase of rooms",
+					"author":"Tom",
+    				"itemReviewed":" Double room",
+					"reviewBody":"The actual body of the review.",
+					"accessibilitySummary":"A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as short descriptions are present but long descriptions will be needed for non-visual users or short descriptions are present and no long descriptions are needed.",
+					"comment":"Comments, typically from users.",
+					"commentCount":"50"	,
+					"keywords":"Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas",
+					"datePublished": "2016-04-01",
+					"description": "description of the required info",
+					"reviewRating": 
+					{
+        				"@type": "Rating",
+        				"ratingValue": "3"
+    				}
+				}
+    
+  				],
+				"priceRange":"2000 to 8000",
+				"checkinTime": "09:00:00",
+      			"checkoutTime": "17:00:00",
+				"amenityFeature":
+				[
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "meeting facilities",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "laundry",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "parking",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "travel desk",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "doctor-on-call",
+      				"value": "True"
+				}
+				]
+},
+{
+	"@context": "http://schema.org",
+	"@type": "ImageObject",
+	"associatedMedia":
+	[
+		{	"@type": "ImageObject",
+			"about":"About the hotel located at particular place, hotel name, etc",
+			"image": "https://www.cleartrip.com//places/hotels/7140/714045/images/537806_535309723218559_659461091_n_w.jpg",
+			"caption":"Sunsea Hotel",
+			"thumbnail":"Hotel front view",
+			"keywords":"Hotel Front view, Sunsea hotel, beach hotel, eco-hut hotel",
+			"contentLocation":"Port Blair",
+			"description":" description of the image: this front view is beautifully located ..."
+		},
+		{	"@type": "ImageObject",
+			"about":"About the hotel located at particular place, hotel name, etc",
+			"image": "https://www.cleartrip.com//places/hotels/7140/714045/images/537806_535309723218559_659461091_n_w.jpg",
+			"caption":"Sunsea Hotel",
+			"thumbnail":"Garden View",
+			"keywords":"Hotel Front view, Sunsea hotel, beach hotel, eco-hut hotel Garden View of Sunsea hotel",
+			"contentLocation":"Port Blair",
+			"description":" description of the image: this front view is beautifully located ..."
+		},
+		{	"@type": "ImageObject",
+			"about":"About the hotel located at particular place, hotel name, etc",
+			"image": "https://www.cleartrip.com//places/hotels/7140/714045/images/537806_535309723218559_659461091_n_w.jpg",
+			"caption":"Sunsea Hotel",
+			"thumbnail":"parking Place",
+			"keywords":"Hotel Front view, Sunsea hotel, beach hotel, eco-hut hotel,parking Place of Sunsea hotel",
+			"contentLocation":"Port Blair",
+			"description":" description of the image: this front view is beautifully located ..."
+		},
+		{	"@type": "ImageObject",
+			"about":"About the hotel located at particular place, hotel name, etc",
+			"image": "https://www.cleartrip.com//places/hotels/7140/714045/images/537806_535309723218559_659461091_n_w.jpg",
+			"caption":"Sunsea Hotel",
+			"thumbnail":"Swimming Pool of Sunsea hotel",
+			"keywords":"Hotel Front view, Sunsea hotel, beach hotel, eco-hut hotel,Swimming Pool of Sunsea hotel",
+			"contentLocation":"Port Blair",
+			"description":" description of the image: this front view is beautifully located ..."
+		},
+		{	"@type": "ImageObject",
+			"about":"About the hotel located at particular place, hotel name, etc",
+			"image": "https://www.cleartrip.com//places/hotels/7140/714045/images/537806_535309723218559_659461091_n_w.jpg",
+			"caption":"Sunsea Hotel",
+			"thumbnail":"Restaurant Image",
+			"keywords":"Hotel Front view, Sunsea hotel, beach hotel, eco-hut hotel,Restaurant Image of Sunsea hotel",
+			"contentLocation":"Port Blair",
+			"description":" description of the image: this front view is beautifully located ..."
+		}
+	]
+},
+{
+	"@context": "http://schema.org",
+	"@type": "InteractionCounter",
+	"interactionService": 
+	[
+	{
+        "name": "www.cleartrip.com",
+        "url":"https://www.cleartrip.com/hotels/info/hotel-shompen-42623"
+    },
+    {
+        "name": "www.booking.com/",
+        "url":"https://www.booking.com//hotels/info/hotel-shompen"
+    },
+    {
+        "name": "www.makemytrip.com",
+        "url":"https://www.makemytrip.com/hotels/info/hotel-shompen"
+    }
+    ]
+},
+{
+	"@context": "http://schema.org", //delux room
+	"@type": "HotelRoom",
+	"name":"Deluxe room",
+	"description":"For an absolutely comforting experience, book a Deluxe Room at our hotel. Decked up in earthy tones and offering complete relaxation, our room spells elegance and style.",
+	"photo": 
+	[
+        {
+          "@id": "../images/Deluxe_room_1.png"
+        },
+        {
+          "@id": "../images/Deluxe_room_2.png"
+        },
+        {
+          "@id": "../images/Deluxe_room_3.png"
+        }
+     ],
+     "numberOfRooms": 
+     	[	
+     	{
+     		"@type": "QuantitativeValue",
+      		"unitText": "Total Rooms",
+     		"value": "30"
+  		},
+     	{
+     		"@type": "QuantitativeValue",
+      		"unitText": "Deluxe single rooms",
+     		"value": "15"
+  		},
+  		{
+     		"@type": "QuantitativeValue",
+      		"unitText": "Deluxe Double rooms",
+     		"value": "15"
+  		}
+     	],
+     	"bed":
+     	{ 
+     		"@type": "BedDetails",
+     		"numberOfBeds":"02",
+     		"typeOfBed":"Cotton based "
+     		},
+     	"occupancy":
+     	[
+     	{
+     		"@type": "QuantitativeValue",
+      		"maxValue": "2",
+      		"name": "children",
+      		"unitCode": "IE"
+    	},
+    	{
+    		"@type": "QuantitativeValue",
+      		"maxValue": "2",
+      		"name": "adults",
+      		"unitCode": "IE"
+    	}
+     	],
+     	"amenityFeature":
+				[
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "telephone",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "AC",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "Wardrobe",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "TV",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "tea/coffee maker",
+      				"value": "True"
+				}
+				],
+				 "@graph": [
+				 {
+				 	
+				 	"@type":"UnitPriceSpecification",
+      				"price": "2000",
+      				"priceCurrency": "INR",
+      				"description":"Cancellation policy description"
+      			
+				},
+                {
+                "@type":"Order",
+                "discount": 1000,
+                "discountCurrency":"INR",
+                "paymentMethod":"cash, card"
+               
+                },
+                
+                {
+                	"@type": "FoodService",
+                	"name": " Deluxe Single room with breakfast",
+      				"description": "Our famous healthy starter breakfast is included."
+      				
+    			},
+    			{
+    				"@type": "Product",
+                	"name":"Seasons",
+                
+    				"offers":
+    				[
+    				{
+    					"@type": "Offer",
+    					"name":"Season Charges",
+                       "price":1000,
+                       "priceCurrency":"INR",
+    					"schema:availabilityEnds": "September",
+      					"schema:availabilityStarts": "February"
+    				},
+    				{
+    					"@type": "Offer",
+    					"name":" Off-Season Charges",
+                       "price":1500,
+                       "priceCurrency":"INR",
+    					"schema:availabilityEnds": "September",
+      					"schema:availabilityStarts": "February"
+    				}
+    				]
+    			}
+                
+				 ]
+},
+{
+	"@context": "http://schema.org", //Standard  room
+	"@type": "HotelRoom",
+	"name":"Standard room",
+	"description":"For an absolutely comforting experience, book a Standard_room Room at our hotel. Decked up in earthy tones and offering complete relaxation, our room spells elegance and style.",
+	"photo": 
+	[
+        {
+          "@id": "../images/Standard_room_1.png"
+        },
+        {
+          "@id": "../images/Standard_room_2.png"
+        },
+        {
+          "@id": "../images/Standard_room_3.png"
+        }
+     ],
+     "numberOfRooms": 
+     	[	
+     	{
+     		"@type": "QuantitativeValue",
+      		"unitText": "Total Rooms",
+     		"value": "10"
+  		},
+     	{
+     		"@type": "QuantitativeValue",
+      		"unitText": "Deluxe single rooms",
+     		"value": "5"
+  		},
+  		{
+     		"@type": "QuantitativeValue",
+      		"unitText": "Deluxe Double rooms",
+     		"value": "5"
+  		}
+     	],
+     	"bed":
+     	{ 
+     		"@type": "BedDetails",
+     		"numberOfBeds":"02",
+     		"typeOfBed":"Cotton based "
+     		},
+     	"occupancy":
+     	[
+     	{
+     		"@type": "QuantitativeValue",
+      		"maxValue": "2",
+      		"name": "children",
+      		"unitCode": "IE"
+    	},
+    	{
+    		"@type": "QuantitativeValue",
+      		"maxValue": "2",
+      		"name": "adults",
+      		"unitCode": "IE"
+    	}
+     	],
+     	"amenityFeature":
+				[
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "telephone",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "AC",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "Wardrobe",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "TV",
+      				"value": "True"
+				},
+				{
+					"@type": "LocationFeatureSpecification",
+					"name": "tea/coffee maker",
+      				"value": "True"
+				}
+				],
+				 "@graph": [
+				 {
+				 	
+				 	"@type":"UnitPriceSpecification",
+      				"price": "2000",
+      				"priceCurrency": "INR",
+      				"description":"Cancellation policy description"
+      			
+				},
+                {
+                "@type":"Order",
+                "discount": 1000,
+                "discountCurrency":"INR",
+                "paymentMethod":"cash, card"
+               
+                },
+                
+                {
+                	"@type": "FoodService",
+                	"name": " Deluxe Single room with breakfast",
+      				"description": "Our famous healthy starter breakfast is included."
+      				
+    			},
+    			{
+    				"@type": "Product",
+                	"name":"Seasons",
+                
+    				"offers":
+    				[
+    				{
+    					"@type": "Offer",
+    					"name":"Season Charges",
+                       "price":1000,
+                       "priceCurrency":"INR",
+    					"schema:availabilityEnds": "September",
+      					"schema:availabilityStarts": "February"
+    				},
+    				{
+    					"@type": "Offer",
+    					"name":" Off-Season Charges",
+                       "price":1500,
+                       "priceCurrency":"INR",
+    					"schema:availabilityEnds": "September",
+      					"schema:availabilityStarts": "February"
+    				}
+    				]
+    			}
+                
+				 ]
+},
+{
+	"@context": "http://schema.org", //Review  schema for single review
+	"@type": "Review",
+	"name":"Value purchase of rooms",
+	"author":"John",
+    "itemReviewed":" Double room",
+	"reviewBody":"The actual body of the review.",
+	"accessibilitySummary":"A human-readable summary of specific accessibility features or deficiencies, consistent with the other accessibility metadata but expressing subtleties such as short descriptions are present but long descriptions will be needed for non-visual users or short descriptions are present and no long descriptions are needed.",
+	"comment":"Comments, typically from users.",
+	"commentCount":"50"	,
+	"keywords":"Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas",
+	"datePublished": "2016-04-01",
+	"description": "description of the required info",
+	"reviewRating": 
+	{
+        "@type": "Rating",
+        "ratingValue": "4"
+    }
+}
+]
+</script>
